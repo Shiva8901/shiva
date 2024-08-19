@@ -11,7 +11,7 @@ import os
 bot = telebot.TeleBot('7326139269:AAHxWfssuCfc0z1QSyjR7KQCz1_lOXYAlIQ')
 
 # Admin user IDs
-admin_id = {"2144352744"}
+admin_id = {"700591003"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -248,7 +248,7 @@ def handle_bgmi(message):
         else:
             response = "✅Usage :- /bgmi <target> <port> <time>\n❤️‍🩹@CiConfigOfficial"  # Updated command syntax
     else:
-        response = "⚠️You Are Not Authorized To Use This Command.\n🫂Contact @CiConfigOwner"
+        response = "⚠️You Are Not Authorized To Use This Command.\n🫂Contact @shiva_158"
 
     bot.reply_to(message, response)
 
@@ -298,7 +298,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"👾Welcome to Your Home, {user_name}! Feel Free to Explore.\n🥰Run This Command : /help\n🥇Welcome To The World's Best Ddos Bot\n❤️‍🩹 @CiConfigOwner\nTG :- t.me/CiConfigOfficial"
+    response = f"👾Welcome to Your Home, {user_name}! Feel Free to Explore.\n🥰Run This Command : /help\n🥇Welcome To The World's Best Ddos Bot\n❤️‍🩹 @shiva_158\nTG :- t.me/CiConfigOfficial"
     bot.reply_to(message, response)
 
 
@@ -326,7 +326,7 @@ def welcome_rules(message):
 𝗕𝗖𝗭 𝗔𝗟𝗟 𝗕𝗔𝗡 𝗥𝗘𝗔𝗦𝗢𝗡 𝗩𝗘𝗥𝗜𝗙𝗘𝗗 𝗕𝗬 𝗠𝗘 𝗢𝗡 𝗕𝗚𝗠𝗜 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗪𝗘𝗕𝗦𝗜𝗧𝗘 ✅‼️... 
 
 𝗦𝗼 𝗣𝗹𝗮𝘆 𝗦𝗮𝗳𝗲𝗹𝘆 ☠️⚠️
-By @NooRPB22'''
+By @shiva_158'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -346,7 +346,7 @@ def welcome_plan(message):
 😀Month-->900 Rs
 
 Dm to buy ddos 🔗
-Dm - @CiConfigOwner
+Dm - @shiva_158
 '''
     bot.reply_to(message, response)
 
